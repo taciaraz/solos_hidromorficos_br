@@ -1,7 +1,8 @@
-solos_hidromorficos_br - EM CONSTRUÇÃO
+# solos_hidromorficos_br - EM CONSTRUÇÃO
 
 Este repositório contém o código e os dados para o projeto solos_hidromorficos_br, que visa computar a área de solos hidromórficos do Brasil e gerar figuras representativas. Este projeto foi desenvolvido para analisar a distribuição espacial das classes de solo com base no mapa de pedologia do IBGE, disponível no Banco de Dados de Informações Ambientais (BDIA): IBGE - Pedologia.
-Tabela de Conteúdos
+
+## Tabela de Conteúdos
 
     Instalação
     Uso
@@ -11,31 +12,7 @@ Tabela de Conteúdos
     Autores
     Referências
 
-Instalação
-
-Instruções para configurar o ambiente de desenvolvimento local:
-
-bash
-
-# Clone o repositório
-git clone https://github.com/seu-usuario/solos_hidromorficos_br.git
-
-# Navegue até o diretório do projeto
-cd solos_hidromorficos_br
-
-# Instale as dependências
-pip install -r requirements.txt
-
-Uso
-
-Para utilizar este projeto e executar a análise da distribuição espacial dos solos hidromórficos:
-
-bash
-
-# Comando para computar a área e gerar as figuras
-Rscript src/3_computa_area_feicoes.r --input data/ibge/limites --output results/figures/
-
-Estrutura do Projeto
+# Estrutura do Projeto
 
 A estrutura de diretórios do projeto é organizada da seguinte forma:
 
